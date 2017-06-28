@@ -1,0 +1,31 @@
+
+@mixin shape($color) {
+ 	display: block;
+	width: 86px;
+	height:2px;
+	border-bottom: solid 2px $color;
+ }
+
+ @mixin btn($color) {
+	height: 60px;
+	border: 3px solid $color;
+	color: $color;
+	transition: all .3s  ease;
+	a {
+		color: $color;
+		display: block;
+		font-size: $text-font-size*24/14;
+		font-weight: 400;
+		line-height: 54px;
+		text-transform: uppercase;
+		transition: all .3s  ease;
+	}
+	&:hover {
+		border: 3px solid lighten($color, 50%);
+		cursor: pointer;
+		background: darken(white, 50%)	
+	}
+	&:hover a {
+		color: lighten($color, 90%);
+	}
+}

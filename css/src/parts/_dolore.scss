@@ -1,0 +1,37 @@
+/*Section AboutUs*/
+
+.dolore {
+	background: url(../../img/2-layers.png) no-repeat center;
+	background-size: cover;
+	background-color: #222;
+}
+
+.dolore__wrap {
+	width: 540px;
+	padding: 151px 0 115px 0;
+	color: white;
+	.wrap__head {
+		font-size: $text-font-size*45/14;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	.wrap__text {
+		font-size: $text-font-size*22/14;
+		font-weight: 100;
+		padding: 2px 0 63px 0;
+
+	}
+	.wrap__link {
+		a {
+			color: white;
+			font-size: $text-font-size*18/14;
+			font-weight: 400;
+			text-decoration: underline;
+			&:hover {
+			color: darken(white, 50%);
+			}
+		}
+		
+	}
+
+}

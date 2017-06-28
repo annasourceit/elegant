@@ -1,0 +1,37 @@
+/*Section Services*/
+
+.services {
+	padding: 108px 0;
+	background-color: white;
+	&__head {
+	color: #222;
+	font-family: $font-family;
+	font-size: $text-font-size*35/14;
+	font-weight: 700;
+	text-transform: uppercase;
+	}
+}
+.services__list {
+	width: 100%;
+	.list__item {
+		width: 30%;
+		div {
+			width: 192px;
+			height: 149px;
+			text-align: center;
+		}
+		h3 {
+			padding: 37px 0;
+			font-size: $text-font-size*24/14;
+			line-height: 24px;
+			font-weight: 400;
+		}
+		p {
+			width: 100%;
+			text-align: center;
+			padding: 0 17px;
+			font-size: $text-font-size*16/14;
+			line-height: 30px;
+		}
+	}
+}

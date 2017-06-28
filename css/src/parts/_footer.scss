@@ -1,0 +1,33 @@
+/*Footer*/
+.footer {
+	background: url(../../img/bg.png) no-repeat center;
+	background-size: cover;
+	padding: 118px 0 122px 0;
+	&__head {
+	color: white;
+	font-family: $font-family;
+	font-size: $text-font-size*35/14;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	}
+	.icon {
+		margin-top: 36px;
+		li {
+			padding-right: 26px;
+		}
+		li:last-child {
+			padding-right: 0;
+		}
+		a {
+			font-family: FontAwesome;
+			font-size: $text-font-size*26/14;
+			font-weight: 400;
+			color: white;
+			transition: all .3s  ease;
+			&:hover {
+				color: darken(white, 50%);
+			}
+		}
+	}
+}

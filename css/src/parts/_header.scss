@@ -1,0 +1,15 @@
+/*Header*/
+
+.header {
+	padding: 50px 0 46px 0;
+	background: url(../../img/hero-img.png) no-repeat center;
+	background-size: cover;
+	&__nuv {
+		.nuv__logo {
+			width: 20%;
+		}
+		.nuv__menu {
+			width: 80%;
+		}
+    }
+}

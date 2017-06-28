@@ -1,0 +1,102 @@
+/*Form*/
+
+.footer__form {
+	padding: 75px 0 0 0;
+	
+	.form__input {
+		background: none;
+		border: none;
+		width: 302px;
+		border-bottom: solid 2px  #afafaf;
+		color: white;
+		font-size: $text-font-size*18/14;
+		font-weight: 400;
+		font-style: italic;
+		padding: 0 0 18px 30px;
+		&:focus {
+			outline: none;
+			border-bottom: solid 2px white;
+		}
+		&.form__text--name {
+			margin-right: 63px;
+		}		
+		&::placeholder { 
+			color: #676767;
+			font-size: $text-font-size*18/14;
+			font-weight: 400;
+			font-style: italic;
+		}
+		&:-ms-input-placeholder {
+			color: #676767;
+			font-size: $text-font-size*18/14;
+			font-weight: 400;
+			font-style: italic;
+		}
+		&::-ms-input-placeholder {
+			color: #676767;
+			font-size: $text-font-size*18/14;
+			font-weight: 400;
+			font-style: italic;
+		}
+	}
+
+	.form__textarea {
+		background: none;
+		border: none;
+		width: 670px;
+		border-bottom: solid 2px  #afafaf;
+		resize: none;
+		color: white;
+		font-size: $text-font-size*18/14;
+		font-weight: 400;
+		font-style: italic;
+		padding: 0 0 18px 30px;
+		overflow: auto;
+		margin: 100px 0 0 0;
+		@-moz-document url-prefix() {
+			padding: 0 0 0 30px;
+		}
+
+		&:focus {
+			outline: none;
+			border-bottom: solid 2px white;
+		}
+		&::placeholder { 
+			color: #676767;
+			font-size: $text-font-size*18/14;
+			font-weight: 400;
+			font-style: italic;
+		}
+		&:-ms-input-placeholder {
+			color: #676767;
+			font-size: $text-font-size*18/14;
+			font-weight: 400;
+			font-style: italic;
+		}
+		&::-ms-input-placeholder {
+			color: #676767;
+			font-size: $text-font-size*18/14;
+			font-weight: 400;
+			font-style: italic;
+		}
+	}
+
+	.form_btn {
+		width: 183px;
+		height: 60px;
+		background: none;
+		border: 3px solid white;
+		color: white;
+		font-size: $text-font-size*24/14;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin-top: 43px;
+		transition: all .3s  ease;
+		&:hover {
+			cursor: pointer;
+			color: darken(white, 50%);
+			border: 3px solid darken(white, 50%);
+		}
+	}
+}
+

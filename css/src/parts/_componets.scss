@@ -1,0 +1,8 @@
+.shape-w {
+	@include shape(white);
+	margin: 38px 0 38px 0;
+}
+.shape-b {
+	@include shape(#222);
+	margin: 70px 0 75px 0;
+}

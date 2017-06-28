@@ -1,0 +1,24 @@
+/*Menu*/
+
+.menu {
+	justify-content:flex-end;
+
+	&__item {
+		padding-right: 53px;
+		&:last-child {
+			padding-right:70px;
+		}
+	}
+	&__link {
+		font-size:$text-font-size;
+		color: #fffefe;
+		font-weight: 500;
+		text-transform: uppercase;
+		line-height:14px;
+		transition: all .3s  ease;
+		&:hover {
+			color: darken(white, 50%);
+		}
+	}
+
+}

@@ -1,0 +1,60 @@
+/*Section Our Work*/
+.work {
+	padding: 97px 0 80px 0;
+	background-color: white;
+	transition: opacity .3s ease;
+	&__head {
+	color: #222;
+	font-family: $font-family;
+	font-size: $text-font-size*35/14;
+	font-weight: 700;
+	text-transform: uppercase;
+	}
+	.work__list {
+		width: 100%;
+		padding: 10px 0 79px 0;
+		.list__item {
+			width: 31.62%;
+			position: relative;
+			img {
+			width: 100%;
+			}
+			.list__item__hover {
+				display: none;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				opacity: 0.75;
+				background-color: black;
+				div {
+					width: 100%;
+					height: 100%;
+				}
+				h4 {
+					color: white;
+					font-size: 22px;
+					font-weight: 400;
+					line-height: 60px;
+					text-transform: uppercase;
+					padding: 161px 0 24px 0;
+				}
+				img {
+					width: 41px;
+					height: 41px;
+				}
+			}
+
+		&:hover .list__item__hover {
+				display: block;
+			}
+		}
+	}
+	.work__btn {
+		@include btn(#222);
+		width: 31.62%;
+		padding: 0 145px;
+	}
+}
+

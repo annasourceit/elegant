@@ -1,0 +1,24 @@
+/*Banner*/
+
+.banner {
+	&__head {
+	width: 611px;
+	margin: 237px 0 0 0;
+	color: white;
+	font-family: $font-family;
+	font-size: $text-font-size*48/14;
+	font-weight: 700;
+	line-height: 60px;
+	text-transform: uppercase;
+	text-align:center;
+	}
+	&__subhead {
+	width: 596px;
+	margin: 0 0 257px 0;
+	color: #fffefe;
+	font-size: $text-font-size*22/14;
+	font-weight: 400;
+	line-height: 30px;
+	text-align:center;
+	}
+}
